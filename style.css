@@ -1,0 +1,116 @@
+/* Estilos gerais */
+
+/* Estilos gerais */
+  @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Vina+Sans&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/background.jpg'); /* Caminho para a imagem de fundo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #28525E;
+}
+
+/* Resto do seu código CSS permanece o mesmo */
+
+
+/* Estilos do cabeçalho */
+header {
+    
+    background-image: linear-gradient(to bottom , #0D2449 , #2d4c85 , #00FAEE );
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+header h1{
+    color: #f4f4f4;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Vina Sans', cursive;
+    word-spacing: 7px;
+    letter-spacing: 7px;
+    font-size: 70px;
+    text-shadow: 2px 2px 0px #333;
+}
+
+header img{
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #0D2444;
+}
+
+nav a:hover{
+    color: #0BFFFF;
+    text-decoration: underline;
+    
+    
+}
+
+/* Adicione este estilo para realçar os serviços quando o mouse passar por cima */
+.main-service img{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.service.highlighted {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Estilos dos serviços */
+.services {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service img {
+    max-width: 40%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    
+}
+
+/* Estilos sobre nós */
+.about-us {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-us img {
+    max-width: 30%;
+    border-radius: 10px;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
